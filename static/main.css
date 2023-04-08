@@ -1,0 +1,207 @@
+*{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar{
+    margin: 0;
+}
+.links{
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.d-flex{
+    margin: 0px;
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+.d-flex button{
+    height: 50px;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    
+}
+.twin{
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    justify-content: center;
+    align-items: flex-start;
+}
+.imgbox{
+   width: 100%; 
+   display: flex;
+   font-size: 20px;
+}
+.imgbox li{
+    list-style-type: none;
+    color: blue;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.headtext{
+    font-size: 80px;
+    font-weight: bold;
+}
+.headtext2{
+    font-size: 40px;
+}
+.p-text{
+    color: gray;
+    font-size: 25px;
+    font-weight: bold;
+}
+.buttonbox{
+    display: flex;
+    height: 125px;
+    align-items: center;
+}
+.buttonbox button{
+    height: 70px;
+    width: 260px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.signinlink p{
+    font-size: 25px;
+    color: gray;
+    font-weight: bold;
+}
+.signinlink p a{
+    text-decoration: none;
+    color: gray;
+}
+.twin2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box1{
+    margin-top: 100px;
+    height: 700px;
+}
+.main2{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.how{
+    margin-top: 200px;
+    height: 600px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid;
+}
+.how h1{
+    font-size: 50px;
+}
+.how h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.card1{
+    height: 600px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    margin: 0;
+    border-radius: 50px;
+}
+.how-it-works{
+    height: 400px;
+    width: 30%
+}
+.cardside{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    width: 800px;
+}
+.lorem{
+    margin-top: 200px;
+    height: 600px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lorem p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.card2{
+    height: 600px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-radius: 50px;
+}
+.cardside2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    width: 800px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+}
+footer{
+    margin-top: 200px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+.footer{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+.footerlist{
+    display: flex;
+    color: white;
+}
+.footerbuttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+    
+    
+
