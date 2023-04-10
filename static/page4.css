@@ -126,7 +126,7 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 100px;
+    height: 600px;
 
 }
 .imgborder{
@@ -156,7 +156,110 @@
     margin-top: 10px;
     font-size: 30px;
 }
+.card2{
+    height: 1000px;
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-radius: 50px;
+}
+.cardside2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 800px;
+    width: 1200px;
+    background-color: rgb(0, 68, 255);
+    color: white;
+    border-radius: 50px;
+}
+.cardside2 li{
+    list-style-type: none;
+}
+.insidecard2{
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 70%;
+}
+.insidecard2 h5{
+    font-weight: bold;
+}
+#learn{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(0, 68, 255);
+    color: white;
+    border: 1px solid white;
+    margin-left: 30px;
+}
+.oneline{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    height: 500px;
+    
+}
+.imggrid{
+    height: 2000px;
+    width: 2500px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "imggrid1 imggrid2"
+    "imggrid3 imggrid4";
+    justify-items: center;
+}
+.imggrid1{
+    grid-area: imggrid1;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+    border: 1px solid;
+    width: 750px;
+    height: 700px;
+    background-color: rgb(255, 242, 242)
 
+}
+.imggrid2{
+    grid-area: imggrid2;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    border: 1px solid;
+    width: 750px;
+    height: 700px;
+    background-color: rgb(255, 242, 242)
+
+}
+.imggrid3{
+    grid-area: imggrid3;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    border: 1px solid;
+    width: 750px;
+    height: 700px;
+    background-color: rgb(255, 242, 242)
+
+}
+.imggrid4{
+    grid-area: imggrid4;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: 750px;
+    height: 700px;
+    background-color: rgb(255, 242, 242);
+
+}
 
 
 
