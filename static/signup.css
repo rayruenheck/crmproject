@@ -1,0 +1,50 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 80px;
+    margin-left: 300px;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    margin-left: 100px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 20px;
+    padding: 10px;
+    float: right;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 40px;
+    width: 200px;
+    margin-left: 250px;
+}
+
+p {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 180px;
+}
+
+ion-icon {
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
