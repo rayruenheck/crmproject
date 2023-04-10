@@ -215,49 +215,54 @@
     "imggrid1 imggrid2"
     "imggrid3 imggrid4";
     justify-items: center;
+    padding: 400px;
 }
 .imggrid1{
     grid-area: imggrid1;
     display: flex;
-    justify-content: end;
-    align-items: end;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    border: 1px solid;
+   
     width: 750px;
     height: 700px;
-    background-color: rgb(255, 242, 242)
+   
 
 }
 .imggrid2{
     grid-area: imggrid2;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    border: 1px solid;
+   
     width: 750px;
     height: 700px;
-    background-color: rgb(255, 242, 242)
+    
 
 }
 .imggrid3{
     grid-area: imggrid3;
     display: flex;
-    align-items: end;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    border: 1px solid;
+   
     width: 750px;
     height: 700px;
-    background-color: rgb(255, 242, 242)
+    
 
 }
 .imggrid4{
     grid-area: imggrid4;
     display: flex;
+    justify-content: center;
+    align-items: center; 
     flex-direction: column;
-    border: 1px solid;
+    
     width: 750px;
     height: 700px;
-    background-color: rgb(255, 242, 242);
+   
 
 }
 
