@@ -1,3 +1,4 @@
+
 *{
     margin-left: 20px;
     margin-right: 20px;
@@ -236,5 +237,250 @@ footer{
     font-weight: bold;
     
 }
+
+
+=======
+*{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar{
+    margin: 0;
+}
+.links{
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.d-flex{
+    margin: 0px;
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+.d-flex button{
+    height: 50px;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    
+}
+.twin{
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    justify-content: center;
+    align-items: flex-start;
+}
+.imgbox{
+   width: 100%; 
+   display: flex;
+   font-size: 20px;
+}
+.imgbox li{
+    list-style-type: none;
+}
+.imgbox span{
+    color: blue;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.headtext{
+    font-size: 80px;
+    font-weight: bold;
+}
+.headtext2{
+    font-size: 40px;
+}
+.p-text{
+    color: gray;
+    font-size: 25px;
+    font-weight: bold;
+}
+.buttonbox{
+    display: flex;
+    height: 125px;
+    align-items: center;
+}
+.buttonbox button{
+    height: 70px;
+    width: 260px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.signinlink p{
+    font-size: 25px;
+    color: gray;
+    font-weight: bold;
+}
+.signinlink p a{
+    text-decoration: none;
+    color: gray;
+}
+.twin2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box1{
+    margin-top: 100px;
+    height: 700px;
+}
+.main2{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.how{
+    margin-top: 200px;
+    height: 600px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid;
+}
+.how h1{
+    font-size: 50px;
+}
+.how h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.card1{
+    height: 600px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    ;
+    margin: 0;
+    border-radius: 50px;
+}
+.how-it-works{
+    height: 400px;
+    width: 30%
+}
+.cardside{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    width: 800px;
+    background-color: rgb(0, 68, 255);
+    color: white;
+    border-radius: 50px;
+}
+.lorem{
+    margin-top: 200px;
+    height: 600px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lorem p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.card2{
+    height: 600px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-radius: 50px;
+}
+.cardside2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    width: 800px;
+    background-color: rgb(0, 68, 255);
+    color: white;
+    border-radius: 50px;
+}
+footer{
+    margin-top: 200px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 68, 255);
+}
+.footer{
+    margin-top: 100px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 35%;
+    align-items: center;
+}
+.footer h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.footerlist{
+    display: flex;
+    color: white;
+}
+.footerlist li{
+    list-style-type: none;
+}
+.footerbuttons{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+.footerbuttons input{
+    height: 50px;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+#green{
+    background-color: rgb(147, 231, 37);
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+#white{
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+
+    
+    
 
 
